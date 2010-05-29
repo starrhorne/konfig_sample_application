@@ -1,0 +1,27 @@
+development:
+  enable_starttls_auto: true
+  address: smtp.gmail.com
+  port: 587
+  domain: example.com
+  authentication: :login
+  user_name: snhorne@gmail.com
+  password: p1ssboat
+
+
+production:
+  enable_starttls_auto: true
+  address: smtp.gmail.com
+  port: 587
+  domain: example.com
+  authentication: :login
+  user_name: snhorne@gmail.com
+  password: p1ssboat
+
+test:
+  enable_starttls_auto: true
+  address: smtp.gmail.com
+  port: 587
+  domain: example.com
+  authentication: :login
+  user_name: example@email.com
+  password: password

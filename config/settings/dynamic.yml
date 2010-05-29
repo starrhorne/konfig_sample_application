@@ -1,0 +1,5 @@
+
+one: 1
+two: 2
+one_plus_two: ` data[:one] + data[:two] `
+rails_root: ` Rails.root `
