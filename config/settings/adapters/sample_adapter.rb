@@ -8,7 +8,10 @@ class SampleAdapter < Konfig::Adapter
   # data will be available to the rest of the application.
   #
   def adapt
+
+    # Will be available to adapter via Konfig[:sample_adapter]
     data[:sample_adapter] = :sample_adapter
+
   end
 
 end
