@@ -9,7 +9,7 @@ class SmtpAdapterTest < ActiveSupport::TestCase
     end
 
     should "run the file through the SmtpAdapter" do
-      assert Konfig[:_smtp][:_adapted]
+      assert_equal :ok, Konfig[:_smtp][:_status]
     end
 
     should "set ActionMailer::Base.smtp_settings" do
